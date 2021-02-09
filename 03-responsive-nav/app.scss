@@ -1,0 +1,69 @@
+:root {
+    --min-width: 400;
+    --max-width: 800;
+    --min-font: 48; 
+    --max-font: 96;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    /* font-size: 6em; */
+    font-size: calc(var(--min-font)*1px);
+    text-align: center;
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul,li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// https://www.madebymike.com.au/writing/precise-control-responsive-typography/
+@media (min-width: 400px) and (max-width: 800px) {
+    h1 {
+        font-size: calc(var(--min-font) *1px + (var(--max-font) - var(--min-font)) * ( (100vw - var(--min-width) * 1px) / ( var(--max-width) - var(--min-width))));
+    }
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: calc(var(--max-font)*1px);
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul {
+        max-width: 50%;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-grow: 1;
+    }
+}
+
+@for $i from 0 through 8 {
+    @media screen and (min-width: calc(400px + #{$i}*50px)) {
+        h1 {
+            color: hsl(calc(#{$i} * (360deg / 9)), 100%, 50%);
+        }
+    }
+}

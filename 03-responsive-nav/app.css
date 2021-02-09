@@ -1,0 +1,136 @@
+:root {
+  --min-width: 400;
+  --max-width: 800;
+  --min-font: 48;
+  --max-font: 96;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  /* font-size: 6em; */
+  font-size: calc(var(--min-font)*1px);
+  text-align: center;
+}
+
+nav {
+  font-size: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul, li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  h1 {
+    font-size: calc(var(--min-font) *1px + (var(--max-font) - var(--min-font)) * ( (100vw - var(--min-width) * 1px) / ( var(--max-width) - var(--min-width))));
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: calc(var(--max-font)*1px);
+  }
+  nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  ul {
+    max-width: 50%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: calc(400px + 0*50px)) {
+  h1 {
+    color: hsl(calc(0 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 1*50px)) {
+  h1 {
+    color: hsl(calc(1 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 2*50px)) {
+  h1 {
+    color: hsl(calc(2 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 3*50px)) {
+  h1 {
+    color: hsl(calc(3 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 4*50px)) {
+  h1 {
+    color: hsl(calc(4 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 5*50px)) {
+  h1 {
+    color: hsl(calc(5 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 6*50px)) {
+  h1 {
+    color: hsl(calc(6 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 7*50px)) {
+  h1 {
+    color: hsl(calc(7 * (360deg / 9)), 100%, 50%);
+  }
+}
+
+@media screen and (min-width: calc(400px + 8*50px)) {
+  h1 {
+    color: hsl(calc(8 * (360deg / 9)), 100%, 50%);
+  }
+}
