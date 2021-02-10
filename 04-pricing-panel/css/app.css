@@ -1,0 +1,126 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #60a9ff;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.pricing-table {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  width: 100%;
+}
+
+.pricing-plan {
+  border-bottom: 2px solid #e1f1ff;
+  padding: 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5em;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+.pricing-img {
+  max-width: 100%;
+}
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+.pricing-features {
+  color: #016ff9;
+  width: 100%;
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  line-height: 1.5;
+  padding: 1.5em 0;
+  border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #016ff9;
+  display: block;
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: auto;
+}
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: .75em;
+  color: #348efe;
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+  background-color: #269aff;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 960px;
+    border-radius: 1em;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 2em 3em;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}

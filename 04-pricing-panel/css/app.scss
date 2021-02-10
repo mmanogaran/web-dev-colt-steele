@@ -1,0 +1,114 @@
+html {
+    // box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #60a9ff;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+
+.pricing-table {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    width: 100%;
+}
+
+.pricing-plan {
+    border-bottom: 2px solid #e1f1ff;
+    padding: 2em 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.pricing-img {
+    max-width: 100%;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+
+.pricing-features {
+    color: #016ff9;
+    width: 100%;
+
+    &-item {
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 0.75em;
+        line-height: 1.5;
+        padding: 1.5em 0;
+        border-top: 1px solid #e1f1ff;
+
+        &:last-child {
+            border-bottom: 1px solid #e1f1ff;
+        }
+    }
+}
+
+.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: auto;
+}
+
+.pricing-button {
+    border: 1px solid #9dd1ff;
+    border-radius: .75em;
+    color: #348efe;
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+
+    &:hover, &:focus {
+        background-color: #e1f1ff;
+    }
+    
+    &.is-featured {
+        background-color: #48aaff;
+        color: white;
+        
+        &:hover, &:focus {
+            background-color: #269aff;
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .pricing-table {
+        flex-direction: row;
+        max-width: 960px;
+        border-radius: 1em;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 2em 3em;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+}

@@ -9,7 +9,7 @@ Start Date: December 2020
 - [x] [Marathon Form](#marathon-form)
 - [x] [Photo Site](#photo-site)
 - [x] [Responsive Nav](#responsive-nav)
-- [ ] Pricing Panel
+- [x] [Pricing Panel](#pricing-panel)
 - [ ] Museum of Candy
 - [ ] Todo List
 - [ ] Score Keeper
@@ -50,3 +50,18 @@ A responsive nav bar made using CSS Flexbox and a colour changing heading using 
 - Made site mobile-first
 - Tried out the technique in [this post](https://www.madebymike.com.au/writing/precise-control-responsive-typography/) to scale the font size of the heading while the viewport width is within a certain range
 - Used SASS to more smoothly transition through colors at different screen widths
+
+
+### [Pricing Panel](https://mmanogaran.github.io/web-dev-colt-steele/04-pricing-panel/index.html)
+
+
+| Mobile Screenshot                                  | Desktop Screenshot                                  |
+| -------------------------------------------------- | --------------------------------------------------- |
+| ![](images/04-pricing-panel-mobile-screenshot.png) | ![](images/04-pricing-panel-desktop-screenshot.png) |
+
+
+A responsive pricing panel.
+
+#### Modifications
+- Converted to SASS to make things more organized
+- Used CSS Flexbox more to handle layout
