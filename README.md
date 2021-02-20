@@ -10,7 +10,7 @@ Start Date: December 2020
 - [x] [Photo Site](#photo-site)
 - [x] [Responsive Nav](#responsive-nav)
 - [x] [Pricing Panel](#pricing-panel)
-- [ ] Museum of Candy
+- [x] [Museum of Candy](#museum-of-candy)
 - [ ] Todo List
 - [ ] Score Keeper
 - [ ] TV Show Search App
@@ -18,31 +18,31 @@ Start Date: December 2020
 
 ## Completed Projects
 
-### [Marathon Form](https://mmanogaran.github.io/web-dev-colt-steele/01-marathon-form/index.html)
 
-<img src="images/01-marathon-form-screenshot.png" alt="Screenshot of Marathon Form" width="50%"/>
+<img align="right" width="50%" src="images/01-marathon-form-screenshot.png" alt="Screenshot of Marathon Form"/>
+
+### [Marathon Form](https://mmanogaran.github.io/web-dev-colt-steele/01-marathon-form/index.html)
 
 A basic HTML only form.
 #### Modifications
 - Used `<fieldset>` to group different sections of the form
 
+<br clear="right"/><br>
+
+<img align="right" width="50%" src="images/02-photo-site-screenshot.png" alt="Screenshot of Photo Site"/>
 
 ### [Photo Site](https://mmanogaran.github.io/web-dev-colt-steele/02-photo-site/index.html)
 
-<img src="images/02-photo-site-screenshot.png" alt="Screenshot of Photo Site" width="50%"/>
 
 A HTML and CSS only site with photos in a 3x3 grid.
 #### Modifications
 - Used CSS Grid for layout instead of just `margin` and `padding`
 
+<br clear="right"/><br>
+
+<img align="right" width="50%" src="images/03-responsive-nav-screenshot.png" alt="Screenshot of Responsive Nav" />
 
 ### [Responsive Nav](https://mmanogaran.github.io/web-dev-colt-steele/03-responsive-nav/index.html)
-
-
-| Mobile Screenshot                                   | Desktop Screenshot                                   |
-| --------------------------------------------------- | ---------------------------------------------------- |
-| ![](images/03-responsive-nav-mobile-screenshot.png) | ![](images/03-responsive-nav-desktop-screenshot.png) |
-
 
 A responsive nav bar made using CSS Flexbox and a colour changing heading using media queries.
 
@@ -51,17 +51,25 @@ A responsive nav bar made using CSS Flexbox and a colour changing heading using 
 - Tried out the technique in [this post](https://www.madebymike.com.au/writing/precise-control-responsive-typography/) to scale the font size of the heading while the viewport width is within a certain range
 - Used SASS to more smoothly transition through colors at different screen widths
 
+<br clear="right"/><br>
+
+<img align="right"  width="50%" src="images/04-pricing-panel-screenshot.png" alt="Screenshot of Pricing Panel" />
 
 ### [Pricing Panel](https://mmanogaran.github.io/web-dev-colt-steele/04-pricing-panel/index.html)
-
-
-| Mobile Screenshot                                  | Desktop Screenshot                                  |
-| -------------------------------------------------- | --------------------------------------------------- |
-| ![](images/04-pricing-panel-mobile-screenshot.png) | ![](images/04-pricing-panel-desktop-screenshot.png) |
-
 
 A responsive pricing panel.
 
 #### Modifications
 - Converted to SASS to make things more organized
 - Used CSS Flexbox more to handle layout
+
+<br clear="right"/><br>
+
+
+<img align="right"  width="50%" src="images/05-museum-of-candy-screenshot.png" alt="Screenshot of Museum of Candy" />
+
+### [Museum of Candy](https://mmanogaran.github.io/web-dev-colt-steele/05-museum-of-candy/index.html)
+
+A basic website made using Bootstrap.
+
+<br clear="right"/><br>
