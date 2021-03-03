@@ -11,7 +11,7 @@ Start Date: December 2020
 - [x] [Responsive Nav](#responsive-nav)
 - [x] [Pricing Panel](#pricing-panel)
 - [x] [Museum of Candy](#museum-of-candy)
-- [ ] Todo List
+- [x] [Todo List](#todo-list)
 - [ ] Score Keeper
 - [ ] TV Show Search App
 - [ ] YelpCamp
@@ -71,5 +71,23 @@ A responsive pricing panel.
 ### [Museum of Candy](https://mmanogaran.github.io/web-dev-colt-steele/05-museum-of-candy/index.html)
 
 A basic website made using Bootstrap.
+
+<br clear="right"/><br>
+
+<img align="right"  width="50%" src="images/06-todo-list-screenshot.png" alt="Screenshot of Todo List" />
+
+### [Todo List](https://mmanogaran.github.io/web-dev-colt-steele/06-todo-list/index.html)
+
+A console-based todo list
+
+#### Modifications
+- Used `switch` instead of `if else` to differentiate commands
+- Used `forEach` instead of `for` loop to list todos
+- Used `setTimeout` to make sure page loads before `prompt` stalls everything
+  - Already tried:
+    - `window.onload = toDoApp`
+    - `document.addEventListener("DOMContentLoaded", toDoApp)`
+    - `window.addEventListener("load", toDoApp)`
+  - Need to look more into it
 
 <br clear="right"/><br>
