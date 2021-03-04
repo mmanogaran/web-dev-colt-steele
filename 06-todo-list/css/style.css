@@ -1,0 +1,53 @@
+:root {
+  --primary-light: #E8EDDF;
+  --secondary-light: #CFDBD5;
+  --accent: #F5CB5C;
+  --secondary-dark: #333533;
+  --primary-dark: #242423;
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1em;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+dl {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: max-content max-content 1fr;
+      grid-template-columns: -webkit-max-content -webkit-max-content 1fr;
+      grid-template-columns: max-content max-content 1fr;
+  gap: 1em;
+}
+
+dt {
+  color: var(--accent);
+}
+
+.shortcut::after {
+  content: ",";
+}
+
+#commands {
+  display: inline-block;
+  position: fixed;
+  padding: 2rem;
+  border: 1px solid var(--primary-light);
+  margin: 2rem;
+}
