@@ -89,5 +89,8 @@ A console-based todo list
     - `document.addEventListener("DOMContentLoaded", toDoApp)`
     - `window.addEventListener("load", toDoApp)`
   - Need to look more into it
+- Added some styling
+- Todo list is now displayed on the browser and adjusts according to user input
+  - Works on Firefox, but not on Chrome
 
 <br clear="right"/><br>
