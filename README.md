@@ -12,7 +12,7 @@ Start Date: December 2020
 - [x] [Pricing Panel](#pricing-panel)
 - [x] [Museum of Candy](#museum-of-candy)
 - [x] [Todo List](#todo-list)
-- [ ] Score Keeper
+- [x] [Score Keeper](#score-keeper)
 - [ ] TV Show Search App
 - [ ] YelpCamp
 
@@ -78,7 +78,7 @@ A basic website made using Bootstrap.
 
 ### [Todo List](https://mmanogaran.github.io/web-dev-colt-steele/06-todo-list/index.html)
 
-A console-based todo list
+A console-based todo list.
 
 #### Modifications
 - Used `switch` instead of `if else` to differentiate commands
@@ -92,5 +92,13 @@ A console-based todo list
 - Added some styling
 - Todo list is now displayed on the browser and adjusts according to user input
   - Works on Firefox, but not on Chrome
+
+<br clear="right"/><br>
+
+<img align="right"  width="50%" src="images/07-score-keeper-screenshot.png" alt="Screenshot of Score Keeper" />
+
+### [Score Keeper](https://mmanogaran.github.io/web-dev-colt-steele/07-score-keeper/index.html)
+
+A simple ping pong score keeper.
 
 <br clear="right"/><br>
